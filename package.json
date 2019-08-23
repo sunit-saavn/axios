@@ -1,7 +1,7 @@
 {
-  "name": "axios",
-  "version": "0.19.0",
-  "description": "Promise based HTTP client for the browser and node.js",
+  "name": "axios-sunit",
+  "version": "0.0.1",
+  "description": "Promise based HTTP client for the browser and node.js. Adds mozSystem parameter to the XMLHTTPREQUEST object",
   "main": "index.js",
   "scripts": {
     "test": "grunt test && bundlesize",
@@ -16,21 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/axios/axios.git"
+    "url": "https://github.com/sunit-saavn/axios.git"
   },
-  "keywords": [
-    "xhr",
-    "http",
-    "ajax",
-    "promise",
-    "node"
-  ],
-  "author": "Matt Zabriskie",
+  "keywords": [],
+  "author": "Sunit Swain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/axios/axios/issues"
+    "url": "https://github.com/sunit-saavn/axios/issues"
   },
-  "homepage": "https://github.com/axios/axios",
+  "homepage": "https://github.com/sunit-saavn/axios",
   "devDependencies": {
     "bundlesize": "^0.17.0",
     "coveralls": "^3.0.0",

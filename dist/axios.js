@@ -1,4 +1,3 @@
-/* axios v0.19.0 | (c) 2019 by Matt Zabriskie */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -990,7 +989,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      delete requestHeaders['Content-Type']; // Let the browser set it
 	    }
 	
-	    var request = new XMLHttpRequest();
+	    var request = new XMLHttpRequest({mozSystem: true});
+	    console.log("created XMLHttpRequest obj");
 	
 	    // HTTP basic authentication
 	    if (config.auth) {
